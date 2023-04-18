@@ -1,0 +1,289 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="icon" href="images/favicon.ico" type="image/x-icon">
+    <link rel="stylesheet" href="portfolio.css">
+    <title>Vignesh Manikavasagam</title>
+    <script src="https://kit.fontawesome.com/bed7838227.js" crossorigin="anonymous"></script>
+</head>
+<body>
+    <!-- First Page -->
+    <div class="header">
+
+        <div class="container">
+
+            <nav>
+                <img src="images/logo.png" class="logo" >
+                <ul>
+                    <li><a href="#header">Home</a></li>
+                    <li><a href="#about">About</a></li>
+                    <li><a href="#services">Services</a></li>
+                    <li><a href="#portfolio">Projects</a></li>
+                    <li><a href="#contact">Contact</a></li>
+                </ul>
+            </nav>
+
+            <div class="header-text">
+                <p>Software Developer</p>
+                <h1 class="name">Hi, I'm Vignesh Manikavasagam</h1>
+                <p>People call me <span class="nickname">Vickyyyy</span>!</p>
+            </div>
+        </div>
+
+    </div>
+
+    <!--About Section  -->
+
+    <div id="about">
+        <div class="container">
+            
+            <div class="row">
+                <div class="col-text1">
+                    <img src="images/aboutme.jpg" height="600" width="650">
+                </div>
+                <div class="col-text2">
+                    <h1 class="subtitle">About <span style="color: #ef3038;">Me</span></h1>
+                    <p>Hi, this is Vignesh. I'm from Chennai. Basically a guy who loves to learn 
+                        and Explore new things. Im a Ambivert so dont get confused if im quiet.
+                        You can look on to my skills and Experience below !
+                    </p>
+                    
+                    <div class="tab-titles">
+                        <p class="tab-links active-link" onclick="openTab('skills')">Skills</p>
+                        <p class="tab-links" onclick="openTab('experience')">Experience</p>
+                        <p class="tab-links" onclick="openTab('education')">Education</p>
+                    </div>
+
+                    <div class="tab-contents active-tab" id="skills">
+                        <ul>
+                            <li><span>ML & DL</span><br>Machine Learning & Deep Learing</li>
+                            <li><span>Data Science</span><br>Data Analytics</li>
+                            <li><span>Web Development</span><br>Web Application Development</li>
+                            <li><span>Backend Development</span><br>Spring Boot</li>
+                        </ul>
+                    </div>
+
+                    <div class="tab-contents" id="experience">
+                        <ul class="exp">
+                            <img src="images/m2p-logo.png" height="50" width="50" style="display: inline">
+                            <li><span>2023-Present</span><br>Intern @ M2P Fintech</li>
+                        </ul>
+                    </div>
+
+                    <div class="tab-contents" id="education">
+                        <ul>
+                            <li><span>BCA - 2021</span><br>Bachelor's from Dwaraka Doss Goverdhan Doss Vaishnav College</li>
+                            <li><span>MCA - 2023</span><br>Currently Pursuing Master's from College Of Engineering, Guindy</li>
+                        </ul>
+                    </div>
+
+                </div>
+            </div>
+
+        </div>
+    </div>
+    <br><br>
+
+    <!-- Services Section-->
+
+    <div id="services">
+        <div class="container">
+
+            <h1 class="subtitle">My<span style="color: #ef3038;"> Services</span></h1>
+
+            <div class="services-list">
+                <div>
+                    <i class="fa-solid fa-robot" style="color: #ffffff;"></i>
+                    <h2>ML & DL</h2><br>
+
+                    <q>Predicting the Future isnt Magic its Artificial Intelligence</q>
+                    <br>
+                    <cite style="display: block; text-align: right;">~ Dave Waters</cite><br>
+                    <a href="#">Learn More</a>
+                </div>
+
+                <div>
+                    <i class="fa-solid fa-magnifying-glass-chart" style="color: #ffffff;"></i>
+                    <h2>Data Science</h2><br>
+                    
+                    <q>Where there is data smoke, there is business fire</q>
+                    <br><br>
+                    <cite style="display: block; text-align: right;">~ Thomas Redman</cite><br>
+
+                    <a href="#">Learn More</a>
+                </div>
+
+                <div>
+                    <i class="fa-solid fa-server" style="color: #ffffff;"></i>
+                    <h2>Web Development</h2><br>
+                    
+                    <q>Design is not what it looks like and feels like. Design is how it works</q>
+                    <br>
+                    <cite style="display: block; text-align: right;">~ Steve Jobs</cite><br>
+
+                    <a href="#">Learn More</a>
+                </div>
+
+                <div>
+                    <i class="fa-solid fa-server" style="color: #ffffff;"></i>
+                    <h2>Backend</h2><br>
+                    
+                    <q>First Solve the Problem & then write the code</q>
+                    <br><br>
+                    <cite style="display: block; text-align: right;">~ John Johnson</cite><br>
+
+                    <a href="#">Learn More</a>
+                </div>
+
+            </div>
+        </div>
+    </div>
+
+    <br>
+    <br>
+
+    <!-- Portfolio Section -->
+
+    <div id="portfolio">
+        <div class="container">
+
+            <h1 class="subtitle2">My<span style="color: #ef3038;"> Projects</span></h1>
+
+            <div class="work-list">
+
+                <div class="work">
+                    <img src="images/calculator.PNG" style="height: 200px; width: 200px;">
+
+                    <div class="layer">
+                        <h3>Calculator</h3>
+                        <p>Arithmetic Calculator using JS for basic Math Operations</p>
+                        <div class="links">
+                            <a href="https://calculator-1704.netlify.app/"><i class="fa-solid fa-play" style="color: #f7f7f7;"></i></a>
+                            <a href="https://github.com/Vignesh-1704/calculator"><i class="fa-brands fa-github" style="color: #ffffff;"></i></a>
+                        </div>
+                    </div>
+
+                </div>
+
+                <div class="work" >
+                    <img src="images/guess.jpg" style="height: 200px; width: 200px;">
+                    <div class="layer">
+                        <h3>Number Guessing Game</h3>
+                        <p>A Basic Number Guessing Game using JS</p>
+                        <div class="links">
+                            <a href="https://number-guessing-game-1704.netlify.app/"><i class="fa-solid fa-play" style="color: #f7f7f7;"></i></a>
+                            <a href="https://github.com/Vignesh-1704/NumberGuessingGame"><i class="fa-brands fa-github" style="color: #ffffff;"></i></a>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="work">
+                    <img src="images/currency.png" style="height: 200px; width: 200px;">
+                    <div class="layer">
+                        <h3>Currency Converter</h3>
+                        <p>A Basic Currency Converter using JS</p>
+                        <div class="links">
+                            <a href="https://currency-converter-1704.netlify.app/"><i class="fa-solid fa-play" style="color: #f7f7f7;"></i></a>
+                            <a href="https://github.com/Vignesh-1704/CurrencyConverter"><i class="fa-brands fa-github" style="color: #ffffff;"></i></a>    
+                        </div>   
+                    </div>
+                </div>
+
+                <div class="work" >
+                    <img src="images/clock.png" style="height: 200px; width: 200px;">
+                    <div class="layer">
+                        <h3>Digital Clock</h3>
+                        <p>A Basic Digital Clock using JS</p>
+                        <div class="links">
+                            <a href="https://digital-clock-1704.netlify.app/"><i class="fa-solid fa-play" style="color: #f7f7f7;"></i></a>
+                            <a href="https://github.com/Vignesh-1704/DigitalClock"><i class="fa-brands fa-github" style="color: #ffffff;"></i></a>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="work" >
+                    <img src="images/grid.PNG" style="height: 200px; width: 200px;">
+                    <div class="layer">
+                        <h3>Grids in CSS</h3>
+                        <p>A Basic WebPage using Grids</p>
+                        <div class="links">
+                            <a href="https://grid-1704.netlify.app/"><i class="fa-solid fa-play" style="color: #f7f7f7;"></i></a>
+                            <a href="https://github.com/Vignesh-1704/Grid"><i class="fa-brands fa-github" style="color: #ffffff;"></i></a>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="work">
+                    <img src="images/flex.png" style="height: 200px; width: 200px;">
+                    <div class="layer">
+                        <h3>Flex in CSS</h3>
+                        <p>A Basic WebPage using Flex</p>
+                        <div class="links">
+                            <a href="https://flex-1704.netlify.app/"><i class="fa-solid fa-play" style="color: #f7f7f7;"></i></a>
+                            <a href="https://github.com/Vignesh-1704/Flex"><i class="fa-brands fa-github" style="color: #ffffff;"></i></a>
+                        </div>
+                        
+                    </div>
+                </div>
+
+                <div class="work">
+                    <img src="images/emi.PNG" style="height: 200px; width: 200px;">
+                    <div class="layer">
+                        <h3>EMI Calculator</h3>
+                        <p>A Basic EMI Calculator Using JS</p>
+                        <div class="links">
+                            <a href="https://emi-calculator-1704.netlify.app/"><i class="fa-solid fa-play" style="color: #f7f7f7;"></i></a>
+                            <a href="https://github.com/Vignesh-1704/EMI-Calculator"><i class="fa-brands fa-github" style="color: #ffffff;"></i></a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <a href="projects.html" class="btn">See More</a>
+
+
+    <!-- Contact ME Section -->
+    <div id="contact">
+        <div class="container">
+            <div class="row">
+                <div class="contact-left">
+                    <h2 class="subtitle">Contact <span style="color: #ef3038;">Me</span></h2>
+                    <p><i class="fa-solid fa-paper-plane" style="color: #ef3038;"></i> vigneshmanikam2001@gmail.com</p>
+                    <p><i class="fa-solid fa-phone" style="color: #ef3038;"></i> +91 7358766000</p>
+                    <br>
+                    <div class="social-icons">
+                        <a href="https://github.com/Vignesh-1704"><i class="fa-brands fa-github" style="color: #ffffff;"></i></a>
+                        <a href="https://www.linkedin.com/in/vignesh-m-bba149212/"><i class="fa-brands fa-linkedin" style="color: #ffffff;"></i></a>
+                        <a href="https://instagram.com/_vigneshmanikam_?igshid=ZDdkNTZiNTM="><i class="fa-brands fa-instagram" style="color: #ffffff;"></i></a>
+                    </div>
+                    <br>
+                    <a href="images/ResumeVigneshNewUpdated.pdf" class="btn2">Download CV</a>
+                </div>
+
+                <div class="contact-right">
+                    <form name= "submit-to-google-sheet">
+                        <input type="text" name="Name" placeholder="Your Name" required>
+                        <input type="email" name="Email" placeholder="Your Email" required>
+                        <textarea name="Message" rows="6" placeholder="Your Message"></textarea>
+                        <button type="submit" class="btn3">Submit</button>
+                    </form>
+                    <span id="msg"></span>
+
+                    <br>
+                    <a href="#top"><i class="fa-solid fa-up-long" style="color: #fcfcfc;"></i></a>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="copyright">
+        <P>Copyright <i class="fa-regular fa-copyright" style="color: #fcfcfc;"></i> Vignesh.M</P>
+    </div>
+
+
+    <script src="portfolio.js"></script>
+</body>
+</html>
